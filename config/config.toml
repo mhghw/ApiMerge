@@ -1,0 +1,9 @@
+    Currencies = ["ETH","BTC"]
+    Interval = 60
+    BaseCurrency = "USD"
+["Mongo"]
+    db = "rates"
+    uri = "mongodb://localhost:27017"
+["Provider"]
+    Gecko = "https://api.coingecko.com/api/v3/exchange_rates"
+    Binance = "https://api.binance.com/api/v3/avgPrice"
